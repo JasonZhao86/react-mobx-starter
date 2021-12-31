@@ -8,8 +8,11 @@
     "start": "webpack-dev-server --config webpack.config.dev.js --hot --inline",
     "build": "webpack -p --config webpack.config.prod.js"
   },
-  "repository": {},
-  "author": "magedu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JasonZhao86/react-mobx-starter.git"
+  },
+  "author": "zhaoxuan",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.24.1",
